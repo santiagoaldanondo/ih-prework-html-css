@@ -1,0 +1,117 @@
+body {
+  background-color: rgb(244, 248, 249);
+  font-family: "Helvetica";
+}
+
+a {
+  text-decoration: none;
+}
+
+.Tweet {
+  padding: 20px 20px 11.6px 20px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(225, 232, 237);
+  border-radius: 5px;
+}
+
+.Tweet-header {
+  padding-left: 45px;
+  position: relative;
+}
+
+.avatar {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 36px;
+  height: 36px;
+}
+
+.TweetAuthor {
+  margin-top: 2px;
+}
+
+.TweetAuthor-screenName {
+  font-size: 14px;
+  color: rgb(104, 109, 129);
+}
+
+.tweetauthor-name {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.account-logo {
+  height: 17px;
+  vertical-align: text-bottom;
+}
+
+.validated-account {
+  width: 17.77px;
+  height: 20px;
+  position: absolute;
+  top: 0px;
+}
+
+.TweetBrand {
+  float: right;
+}
+
+.FollowButton {
+    display: inline-block;
+    padding: 5.5px 13px 6.5px 11.5px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(85, 172, 238);
+    border: 1px solid #55acee;
+    border-radius: 4px;
+}
+
+#twitter-logo {
+  width: 17.5px;
+  height: 17.5px;
+  vertical-align: text-bottom;
+}
+
+.Tweet-body {
+  margin-top: 14px;
+}
+
+.Tweet-text {
+  margin: 0px;
+  color: rgb(0, 0, 0);
+}
+
+.Tweet-metadata {
+  margin-top: 3.2px;
+}
+
+time {
+  font-size: 14px;
+  color: rgb(101, 116, 127);
+}
+
+.Tweet-actions {
+  margin-top: 8.4px;
+  padding: 0px;
+}
+
+.Tweet-action {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.TweetAction {
+  font-size: 14px;
+  color: rgb(105, 120, 130);
+}
+
+.Icon {
+  display: inline;
+}
+
+.Icon-img {
+  height: 14px;
+}
